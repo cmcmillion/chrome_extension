@@ -8,7 +8,8 @@ body {
 
 .header-container {
   display: flex;
-  align-items: center; /* Center items vertically */
+  justify-content: center;
+  align-items: center; 
 }
 
 img {
@@ -19,12 +20,15 @@ img {
     display: none;
 }
 
-.expand-btn {
-    display: block;
+
+.expand-btn:hover {
+  transition: font-weight 0.2s;
+  font-weight: 800;
 }
 
 .expand-btn-container {
-    margin-bottom: 10px;
+  text-align: center;
+  margin: 20px;
 }
 
 .message-container {
@@ -35,7 +39,7 @@ img {
   height: 100px;
   width: 340px;
   padding: 5px;
-  margin:10px 0;
+  margin:5px 0;
   border:0;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
   border-radius:10px;
@@ -45,22 +49,26 @@ img {
 
 input[type=text] {
   padding: 5px;
-  margin:10px 0;
+  margin:5px 0;
   border:0;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
   border-radius:10px;
   width: 340px;
   height: 20px;
+  flex-grow: 1;
 }
 
 .form-row {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
+
   label {
-    width: 70px;
+    flex-basis: 70px;
+    margin-right: 5px;
+    text-align: center;
   }
   
 .submit {

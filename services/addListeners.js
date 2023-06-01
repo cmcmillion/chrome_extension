@@ -31,7 +31,7 @@ formatTags = (tags) => {
 
 // If add notes/tags button was never clicked, submit empty notes/tags
 setNotesAndTags = (notes, tags) => {
-  const expandLink = document.getElementById("expand-btn");
+  const expandLink = document.querySelector(".expand-btn");
   const expandLinkCSS = window.getComputedStyle(expandLink);
   console.log("asdf", expandLinkCSS.getPropertyValue("display"));
 
@@ -90,7 +90,7 @@ document
     window.close();
   });
 
-const expandLink = document.getElementById("expand-btn");
+const expandLink = document.querySelector(".expand-btn");
 
 expandLink.addEventListener("click", function (event) {
   event.preventDefault();
