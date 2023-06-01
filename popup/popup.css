@@ -1,0 +1,107 @@
+body {
+  display: block;
+  width: 420px;
+  text-align: left;
+  background-color: rgb(247, 247, 249);
+  font-family: Inter, -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+img {
+  margin: 5px;
+}
+
+.expand-box {
+    display: none;
+}
+
+.expand-btn {
+    display: block;
+}
+
+.expand-btn-container {
+    margin-bottom: 10px;
+}
+
+.message-container {
+    text-align: center;
+}
+
+#notes {
+  height: 100px;
+  width: 340px;
+  padding: 5px;
+  margin:10px 0;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
+  border-radius:10px;
+  font-family: Inter, -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+input[type=text] {
+  padding: 5px;
+  margin:10px 0;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
+  border-radius:10px;
+  width: 340px;
+  height: 20px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  label {
+    width: 70px;
+  }
+  
+.submit {
+    color:#fff;
+    background: linear-gradient(214.1deg,#EB2487 7.03%,#F93939 93.99%);
+  }
+
+.cancel {
+  color:rgb(0, 0, 0);
+  background: linear-gradient(214.1deg,#d0d0d0 7.03%,#e0e0e0 93.99%);
+}
+
+.message {
+    padding:10px;
+    border:none;
+    color:rgb(0, 0, 0);
+    font-weight:600;
+    border-radius:10px;
+}
+
+.message.success {
+    background: linear-gradient(214.1deg,#24eb2e 7.03%,#39f95f 53.99%);
+}
+
+.message.error {
+    background: linear-gradient(214.1deg,#EB2487 7.03%,#F93939 93.99%);
+}
+
+.button-box {
+    text-align: center;
+}
+
+button {
+    padding:15px;
+    border:none;
+    font-weight:600;
+    border-radius:30px;
+    width:30%;
+    transition: box-shadow 0.2s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
