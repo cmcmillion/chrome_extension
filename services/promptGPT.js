@@ -1,6 +1,6 @@
 (() => {
   const PAGE_TEXT = document.body.innerText;
-  const API_KEY = "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"; // FILL IN YOUR PERSONAL API KEY
+  const API_KEY = ""; // FILL IN YOUR PERSONAL API KEY
   const URL = "https://api.openai.com/v1/chat/completions";
   const NOTES_REQUEST_BODY = {
     model: "gpt-3.5-turbo",
